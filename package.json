@@ -1,0 +1,27 @@
+{
+  "name": "nodeonvif",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mharj/nodeonvif.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mharj/nodeonvif/issues"
+  },
+  "homepage": "https://github.com/mharj/nodeonvif#readme",
+  "dependencies": {
+    "azure-event-hubs": "0.0.5",
+    "azure-iot-device": "^1.1.5",
+    "azure-iot-device-mqtt": "^1.1.5",
+    "azure-iothub": "^1.1.5",
+    "nconf": "^0.8.4",
+    "onvif": "^0.5.3"
+  }
+}
